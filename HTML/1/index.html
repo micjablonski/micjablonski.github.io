@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-3</title>
+</head>
+
+<body>
+    <form action="https://formspree.io/f/xzbyjjgd" method="POST">
+        <label>Imię:
+            <input type="text" name="name" placeholder="np. Jan">
+        </label><br><br>
+        <label>Nazwisko:
+            <input type="text" name="surname" placeholder="np. Kowalski">
+        </label><br><br>
+        <label>Adres e-mail:
+            <input type="email" name="email" placeholder="np. jan.kowalski@gmail.com">
+        </label><br><br>
+        <label>Telefon:
+            <input type="number" name="phone" placeholder="+48 711 222 333">
+        </label><br><br>
+        Wybór miasta: 
+            <select name="city">
+                <option value="warszawa">Warszawa</option>
+                <option value="krakow" selected>Kraków</option>
+                <option value="gdansk">Gdańsk</option>
+            </select><br><br>
+        Płeć: 
+            <input type="radio" name="gender">Mężczyzna
+            <input type="radio" name="gender">Kobieta<br><br>
+        <label>Zgoda na dane osobowe: 
+            <input type="checkbox" name="agreement" required>
+        </label><br><br>
+        <label>Wiadomość
+            <textarea name="message"></textarea><br>
+        </label><br>
+        <input type="submit" value="Wyślij wiadomość">
+    </form>
+</body>
+
+</html>
