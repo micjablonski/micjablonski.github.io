@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+}
+div {  
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    animation-name: count;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+}
+
+@keyframes count {
+    0% {background-image: url("../img/10.jpg")}
+    5% {background-image: url("../img/0.jpg")}
+    10% {background-image: url("../img/9.jpg")}
+    15% {background-image: url("../img/0.jpg")}
+    20% {background-image: url("../img/8.jpg")}
+    25% {background-image: url("../img/0.jpg")}
+    30% {background-image: url("../img/7.jpg")}
+    35% {background-image: url("../img/0.jpg")}
+    40% {background-image: url("../img/6.jpg")}
+    45% {background-image: url("../img/0.jpg")}
+    50% {background-image: url("../img/5.jpg")}
+    55% {background-image: url("../img/0.jpg")}
+    60% {background-image: url("../img/4.jpg")}
+    65% {background-image: url("../img/0.jpg")}
+    70% {background-image: url("../img/3.jpg")}
+    75% {background-image: url("../img/0.jpg")}
+    80% {background-image: url("../img/2.jpg")}
+    85% {background-image: url("../img/0.jpg")}
+    90% {background-image: url("../img/1.jpg")}
+    95% {background-image: url("../img/0.jpg")}
+    100% {background-image: url("../img/11.jpg")}
+}
