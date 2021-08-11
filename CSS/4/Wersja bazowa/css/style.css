@@ -33,7 +33,7 @@
     background-color: pink;
 }
 
-.box:nth-last-child(1) {
+.box:nth-child(1) {
     background-color: pink;
 }
 
@@ -95,6 +95,6 @@
     background-color: black;
 }
 
-.box:nth-last-child(9) {
+/* .box:nth-last-child(9) {
     background-color: red;
-}
+} */

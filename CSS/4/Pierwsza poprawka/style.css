@@ -1,0 +1,67 @@
+body {
+    color: #ffffff;
+    font-size: 50px;
+    background-color: black;
+}
+
+.num {  
+    animation-name: count;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    opacity: 0;
+    position: fixed;
+}
+
+#n10 {
+    animation-delay: 0s;
+}
+
+#n9 {
+    animation-delay: 1s;
+}
+
+#n8 {
+    animation-delay: 2s;
+}
+
+#n7 {
+    animation-delay: 3s;
+}
+
+#n6 {
+    animation-delay: 4s;
+}
+
+#n5 {
+    animation-delay: 5s;
+}
+
+#n4 {
+    animation-delay: 6s;
+}
+
+#n3 {
+    animation-delay: 7s;
+}
+
+#n2 {
+    animation-delay: 8s;
+}
+
+#n1 {
+    animation-delay: 9s;
+}
+
+#love {
+    animation-delay: 10s;
+}
+
+@keyframes count {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
