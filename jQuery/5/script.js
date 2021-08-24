@@ -9,5 +9,5 @@ $(function(){
         $('body').fadeOut(2000, function(){
             window.location.href = $(e.target).attr('href');
         });
-    })
+    });
 });
