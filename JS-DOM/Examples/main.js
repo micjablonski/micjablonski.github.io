@@ -121,20 +121,20 @@ console.log(firstElementChild.hasChildNodes()); //Sprawdza czy istnieją nods
 console.log(firstElementChild.closest('#list')); //Zwraca najbliższy element  */
                                                 
                                                 //TWORZENIE NOWYCH WĘZŁÓW - DOM
-/* let liElemnet = document.createElement('li');
-let textNode = document.createTextNode('Seventh (7)');
-let attrNode = document.createAttribute('class');
-attrNode.value='last';
+// let liElemnet = document.createElement('li');
+// let textNode = document.createTextNode('Seventh (7)');
+// let attrNode = document.createAttribute('class');
+// attrNode.value='last';
 
-liElemnet.appendChild(textNode); //Wstrzyknięci tekstu Seventh (7) do li
-liElemnet.setAttributeNode(attrNode); //Wstrzyknięcie klasy
+// liElemnet.appendChild(textNode); //Wstrzyknięci tekstu Seventh (7) do li
+// liElemnet.setAttributeNode(attrNode); //Wstrzyknięcie klasy
 
-let list = document.getElementById('list');
-list.appendChild(liElemnet);
-console.log(liElemnet);
-console.log(textNode);
-console.log(attrNode);
-console.log(list); */
+// let list = document.getElementById('list');
+// list.appendChild(liElemnet);
+// console.log(liElemnet);
+// console.log(textNode);
+// console.log(attrNode);
+// console.log(list);
 
                                         //DODAWANIE WĘZŁÓW DO DRZEWA DOM
 /* let liElement = document.createElement('li'); // tworzy element <button>
