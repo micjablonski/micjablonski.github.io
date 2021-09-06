@@ -1,0 +1,47 @@
+/* article {
+    width: 800px;
+    margin: 100px auto;
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    color:darkblue;
+    font-size: 2em;
+}
+
+hr {
+    width: 200px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+a {
+    color: red;  
+}
+
+.contentA {
+    background-color: lightgray;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.accordion-button::after {
+    content: none;
+} */
+.accordion-button::after {
+    content: none;
+}
+
+.accordion-button {
+    justify-content: center;
+}
+
+.accordion-button a:link {
+    color: red;
+}
+
+.accordion-button a:hover {
+    color:darkblue;
+} 

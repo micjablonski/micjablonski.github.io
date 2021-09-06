@@ -1,10 +1,11 @@
 const addItem = () => {
     let list = document.getElementById('items');
     let count = list.children.length + 1;
-    let newEl = document.createElement('li'); 
+    let newEl = document.createElement('li');
+    
+    newEl.setAttribute('class','item');
     
     newEl.innerText = "Item " + count;
-    console.log(newEl);
 
     list.appendChild(newEl);
 }

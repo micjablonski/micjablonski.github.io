@@ -9,7 +9,7 @@
 //Zapis $(); to znaczy to samo co jQuery();, tylko, żę długi zapis 
 //console.log($) - wywołuje funkcję, tłumaczy DOM na jQuery
 
-//Odwołania do elementów za pomocą selektorów
+                                            //Odwołania do elementów za pomocą selektorów
 /* $(function () {
     const section = $('#about');
     console.log(section);
@@ -34,7 +34,7 @@
 }); */
 
 
-//Odwołania elementów za pomocą metod jQuery
+                                                        //Odwołania elementów za pomocą metod jQuery
 /* $(function(){
     const fifthElement = $('.list-item').eq(4);
     console.log(fifthElement);
@@ -53,7 +53,7 @@
 }) */
 
 
-//Poruszanie się po drzewie DOM
+                                        //Poruszanie się po drzewie DOM
 /* $(function(){
 
     const linkParents = $('a').parent();
@@ -62,7 +62,7 @@
     const linkChildren = $('section').children();
     console.log(linkChildren);
 
-    const elementAfterDescription = $('.description').next(); //Zwraca kolekcję elementó po klasie description
+    const elementAfterDescription = $('.description').next(); //Zwraca kolekcję elementów po klasie description
     console.log(elementAfterDescription);
 
     const elementBeforeDescription = $('.description').prev(); //Zwraca kolekcję elementow przed klasą description
@@ -70,7 +70,7 @@
 });
  */
 
-//Tworzenie elementów, dodawanie oraz usuwanie elementów i ich zawartości
+                                        //Tworzenie elementów, dodawanie oraz usuwanie elementów i ich zawartości
 /* $(function(){
     const newLi = $('<li class="list-item">New item</li>'); //Stworzenie nowego elementu
     console.log(newLi);
@@ -83,7 +83,7 @@
     $('.content').remove(); //Usunięcie elementów z drzewa DOM
 });    */
 
-//Dodawanie i usuwanie atrybutów
+                                        //Dodawanie i usuwanie atrybutów
 /* $(function(){
 
 $('#about h2').attr('id','main-heading'); //dodanie atrybutu do elementu h2
@@ -104,7 +104,7 @@ $('li').addClass('item ul-item'); //Dodaje nową klasę do wszystkich elementów
 
 }); */
 
-//Manipulacja stylami
+                                            //Manipulacja stylami
 /* $(function(){
 
     $('p').css('background-color','pink'); //Ustawia kolor parametru p
@@ -116,7 +116,7 @@ $('li').addClass('item ul-item'); //Dodaje nową klasę do wszystkich elementów
     }); 
 }); */
 
-//Manipulacja treścią i wartością znaczników             
+                                            //Manipulacja treścią i wartością znaczników             
 /* $(function(){
     
     let headingText = $('h2').text();
@@ -138,7 +138,7 @@ $('li').addClass('item ul-item'); //Dodaje nową klasę do wszystkich elementów
     });
 }); */
 
-//Pętla na kolekcji elementów
+                                        //Pętla na kolekcji elementów
 /* $(function(){
     $('.list-item').css('margin-left', '20px');
 
@@ -148,7 +148,7 @@ $('li').addClass('item ul-item'); //Dodaje nową klasę do wszystkich elementów
 });
  */
 
-//Dodawanie i usuwanie nasłuchu zdarzeń oraz ich obsługa
+                                        //Dodawanie i usuwanie nasłuchu zdarzeń oraz ich obsługa
 /* $(function(){
     $('#click-button').click(function(){
         $('h2').toggleClass('color-orange'); //Po kliknięciu zmienia nam klasę dla h2
@@ -179,7 +179,7 @@ $('li').addClass('item ul-item'); //Dodaje nową klasę do wszystkich elementów
     });
 }); */
 
-//Predefiniowane metody do animacji
+                                                //Predefiniowane metody do animacji
 /* $(function(){
     const heading = $('h1');
 
@@ -222,7 +222,7 @@ $('li').addClass('item ul-item'); //Dodaje nową klasę do wszystkich elementów
     });
 }); */
 
-//Animacje niestandardowe
+                                                //Animacje niestandardowe
 /* $(function(){
     const heading = $('h1');
     $('#animate').click(function(){
@@ -232,7 +232,7 @@ $('li').addClass('item ul-item'); //Dodaje nową klasę do wszystkich elementów
     });
 }); */
 
-//This i funkcje strzałkowe
+                                                //This i funkcje strzałkowe
 /* $(function () {
     $('#animate').click(function () {
         console.log(this); //this wskazuje na DOM, który nie jest przetłumaczony na jQuery

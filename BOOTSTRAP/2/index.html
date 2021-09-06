@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>2-FAQ bootstrap</title>
+
+</head>
+
+<body>
+
+  <!-- <article>
+
+        <header>FAQ</header>
+        <hr>
+
+        <div class="contentA">
+            <a href="http://#">Kim jest Front End Developer</a>
+        </div>
+
+        <div class="contentP">   
+            <p class="d-none">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore aut mollitia, repudiandae assumenda iure aspernatur quis dolorem pariatur iste officia!</p>
+        </div> 
+
+        <div class="contentA">
+            <a href="http://#">Od czego zaczyna się naula?</a>
+        </div>
+
+        <div class="contentP"> 
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quibusdam cupiditate ex, quo ipsam debitis itaque ut nobis sit. Ad eligendi corrupti ut quae, molestiae incidunt fugit alias ipsam modi recusandae ipsa possimus delectus doloribus exercitationem tempora et minus hic.</p>
+        </div> 
+        
+        <div class="contentA">
+            <a href="http://#">Znam już podstawy i co dalej?</a>
+        </div>
+
+        <div class="contentP"> 
+            <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quia optio vero nesciunt eveniet nihil suscipit praesentium veniam quaerat itaque.</p>
+        </div> 
+
+    </article>  -->
+
+<div class="container mt-5 text-center">
+<h1 class="text-primary">FAQ</h1>
+<hr class="my-1 w-25 mx-auto">
+  <div class="accordion text-center mt-4" id="accordionExample">
+    <div class="accordion-item margin ">
+      <h1 class="accordion-header" id="headingOne">
+        <button class="accordion-button bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+          aria-expanded="true" aria-controls="collapseOne">
+          <a href="#" class="stretched-link">Kim jest Front End Developer</a>
+        </button>
+      </h1>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          This is the first item's accordion body. It is shown by default, until the collapse plugin
+          adds the appropriate classes that we use to style each element. These classes control the overall appearance,
+          as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or
+          overriding our default variables. It's also worth noting that just about any HTML can go within the
+          .accordion-body, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed text-danger bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+          aria-expanded="false" aria-controls="collapseTwo">
+          <a href="#" class="stretched-link">Od czego zaczyna się nauka?</a>
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          This is the second item's accordion body. It is hidden by default, until the collapse plugin
+          adds the appropriate classes that we use to style each element. These classes control the overall appearance,
+          as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or
+          overriding our default variables. It's also worth noting that just about any HTML can go within the
+          .accordion-body, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed text-danger bg-light" type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          <a href="#" class="stretched-link">Znam już podstawy i co dalej?</a>
+          
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          This is the third item's accordion body. It is hidden by default, until the collapse plugin
+          adds the appropriate classes that we use to style each element. These classes control the overall appearance,
+          as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or
+          overriding our default variables. It's also worth noting that just about any HTML can go within the
+          .accordion-body, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- jQuary -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
+
+  <!-- JavaScript -->
+  <script src="js/main.js"></script>
+
+
+</body>
+
+</html>
