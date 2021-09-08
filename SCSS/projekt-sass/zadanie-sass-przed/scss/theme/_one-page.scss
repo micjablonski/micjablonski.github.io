@@ -20,10 +20,10 @@
 
             .icon-about {
                 color: $color-text-primary;
-                width: $base-font-size * 4.5;
-                height: $base-font-size * 4.5;
+                width: $base-font-size * 6; // *4.5
+                height: $base-font-size * 6; // *4.5
                 border-radius: 100%;
-                line-height: $base-font-size * 4.5;
+                line-height: $base-font-size * 6; // *4.5
                 background-color: $color-primary;
                 margin: $margin-none auto $baseline;
             }
@@ -137,9 +137,9 @@
                 height:100%;
                 opacity: 0;
                 background: $color-portfolio-hover;
-                -webkit-transition: all .35s;
-                -moz-transition: all .35s;
-                transition: all .35s;
+                -webkit-transition: all .35s;   //!Zapytać o znaczenie
+                -moz-transition: all .35s;      //!Zapytać o znaczenie
+                transition: all 1s;   // .35s
 
                 .portfolio-box-caption-content {
                     position: absolute;
@@ -177,6 +177,10 @@
             border-radius: 100%;
             line-height: $base-font-size * 4.5;
             border: 2px solid $color-primary;
+            transition: 0.5s; 
+            &:hover {
+                transform: rotate(-45deg);
+            }
         }
 
 
@@ -188,9 +192,10 @@
             }
 
             .divider-light-dark {
-                width: $baseline * 2;
+                width: $baseline + 1; // *2
                 margin-left: $padding-none;
                 margin-bottom: 20px;
+                opacity: 0.5; //New
             }
         }
     }
@@ -255,15 +260,15 @@
                     border-radius: 100%;
                     line-height: $base-font-size * 2.5;
                     outline: 0;
-                    color: $color-bg-main; //!czy to zmienić na #f0f4dc
-                    background-color: $color-border; //!czy to zmienić na #f0f4dc
+                    color: $color-bg-main;
+                    background-color: $color-border;
                     -webkit-transition: all .3s;
                     -moz-transition: all .3s;
                     transition: all .3s;
                 }
 
                 li a:hover, li a:focus, li a:active {
-                    background-color: $color-link;    //!CZy tu zmienić na #f0f4dc
+                    background-color: $color-link;
                 }
             }
 

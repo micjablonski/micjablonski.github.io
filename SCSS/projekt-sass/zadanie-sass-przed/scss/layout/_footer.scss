@@ -3,9 +3,13 @@
 
 .t108-footer {
 	background-color: $color-footer;
+	
+	.fa {
+		font-size: 25px;
+	}
 
 	.footer-above {
-		padding-top: $baseline * 2;
+		padding-top: $baseline * 3.33; //*2
 
 		.margin-none {
 

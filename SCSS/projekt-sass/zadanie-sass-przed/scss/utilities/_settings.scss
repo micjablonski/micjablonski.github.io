@@ -11,8 +11,8 @@
 //    Typography 
 // -------------------
 	$base-font-size: 16px;
-	$font-primary: "Lato Regular", Helvetica, sans-serif;
-	$font-secondary: "Lato Bold", Helvetica, sans-serif;
+	$font-primary: 'Raleway', sans-serif; //"Lato Regular", Helvetica, sans-serif;
+	$font-secondary: 'Archivo Black', sans-serif; //"Lato Bold", Helvetica, sans-serif;
 	$text-transform-base: uppercase;
 	$baseline: $base-font-size * 1.5;
 
@@ -25,7 +25,7 @@
 	// Main colors
 	$color-primary: #a5e200; //zmiana
 	$color-primary-rgb: rgb(46,182,209);
-	$color-primary-darker: #a5e200; //zmiana
+	$color-primary-darker: #88ba00; //zmiana
 	$color-primary-darker-rgb: rgb(35,138,158);
 
 	$color-text-primary: #ffffff;

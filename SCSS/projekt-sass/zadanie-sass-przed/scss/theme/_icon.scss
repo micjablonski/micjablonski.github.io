@@ -111,3 +111,8 @@
 		margin-top: 100px;
 	}
 }
+
+.rotation-link a:hover {			//New
+	transform: rotate(-45deg);
+	transition: transform 0.5s;
+}

@@ -10490,17 +10490,17 @@ body {
   -webkit-font-smoothing: antialiased;
   font-size: 16px;
   color: #5b5b5b;
-  font-family: "Lato Regular", Helvetica, sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 body a, body input, body p {
-  font-family: "Lato Regular", Helvetica, sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 body h1, body h2, body h3, body h4, body h5, body h6 {
   text-transform: uppercase;
   color: #222222;
-  font-family: "Lato Bold", Helvetica, sans-serif;
+  font-family: "Archivo Black", sans-serif;
   margin-bottom: 24px;
   margin-top: 24px;
 }
@@ -10704,7 +10704,7 @@ header.header-image .header-content .header-content-inner h5 {
     color: #a5e200;
   }
   .header-contact ul .fa-twitter:hover, .header-contact ul .fa-facebook:hover, .header-contact ul .fa-linkedin:hover, .header-contact ul .fa-google-plus:hover {
-    color: #a5e200;
+    color: #88ba00;
   }
 }
 
@@ -10780,7 +10780,7 @@ header.header-image .header-content .header-content-inner h5 {
   font-weight: 700;
   text-transform: uppercase;
   background-color: #ffffff;
-  font-family: "Lato Regular", Helvetica, sans-serif;
+  font-family: "Raleway", sans-serif;
   margin-left: 10px;
   padding-bottom: 10px;
   padding-top: 10px;
@@ -10804,7 +10804,7 @@ header.header-image .header-content .header-content-inner h5 {
   font-size: 13px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: "Lato Regular", Helvetica, sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
@@ -10901,7 +10901,7 @@ header.header-image .header-content .header-content-inner h5 {
     font-weight: 700;
     text-transform: uppercase;
     background-color: #ffffff;
-    font-family: "Lato Regular", Helvetica, sans-serif;
+    font-family: "Raleway", sans-serif;
     padding-top: 16px;
     padding-bottom: 16px;
     margin-left: 0;
@@ -10918,7 +10918,7 @@ header.header-image .header-content .header-content-inner h5 {
     font-size: 13px;
     font-weight: 700;
     text-transform: uppercase;
-    font-family: "Lato Regular", Helvetica, sans-serif;
+    font-family: "Raleway", sans-serif;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
     background-color: #ffffff;
@@ -10964,7 +10964,7 @@ header.header-image .header-content .header-content-inner h5 {
     font-size: 13px;
     font-weight: 700;
     text-transform: uppercase;
-    font-family: "Lato Regular", Helvetica, sans-serif;
+    font-family: "Raleway", sans-serif;
   }
   .navbar-default.affix .open .dropdown-menu > li > a:hover, .navbar-default.affix .open .dropdown-menu > li > a:focus {
     background-color: #ffffff;
@@ -11077,7 +11077,7 @@ header.header-image .header-content .header-content-inner h5 {
   width: 40px;
   height: 40px;
   font-size: 32px;
-  font-family: "Lato Regular", Helvetica, sans-serif;
+  font-family: "Raleway", sans-serif;
   line-height: 35.2px;
   margin: 0;
   z-index: 11;
@@ -11113,13 +11113,14 @@ header.header-image .header-content .header-content-inner h5 {
 
 #main-slider .carousel-caption p, #main-slider .carousel-caption h1 {
   color: #ffffff;
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 
 #main-slider .carousel-caption h1 {
-  font-size: 48px;
+  font-size: 38px;
   margin-top: 24px;
   margin-bottom: 24px;
+  letter-spacing: 4px;
 }
 
 #main-slider .carousel-caption p {
@@ -11128,8 +11129,8 @@ header.header-image .header-content .header-content-inner h5 {
 }
 
 #main-slider .carousel-caption .btn-primary {
-  margin-top: 48px;
-  font-size: 14px;
+  margin-top: 24px;
+  font-size: 22px;
   padding: 10px 12px;
 }
 
@@ -11369,8 +11370,12 @@ header.header-image .header-content .header-content-inner h5 {
   background-color: #222222;
 }
 
+.t108-footer .fa {
+  font-size: 25px;
+}
+
 .t108-footer .footer-above {
-  padding-top: 48px;
+  padding-top: 79.92px;
 }
 
 .t108-footer .footer-above .margin-none p {
@@ -11506,7 +11511,7 @@ hr {
 }
 
 hr.divider-light-dark {
-  max-width: 79.2px;
+  max-width: 150px;
   border-color: #a5e200;
   border-width: 3px;
 }
@@ -11587,7 +11592,7 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 
 .t108-page time {
   font-size: 20px;
-  font-family: "Lato Bold", Helvetica, sans-serif;
+  font-family: "Archivo Black", sans-serif;
   color: #222222;
   text-transform: uppercase;
 }
@@ -11679,10 +11684,10 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 
 .t108-one-page #about .about-box .icon-about {
   color: #ffffff;
-  width: 72px;
-  height: 72px;
+  width: 96px;
+  height: 96px;
   border-radius: 100%;
-  line-height: 72px;
+  line-height: 96px;
   background-color: #a5e200;
   margin: 0 auto 24px;
 }
@@ -11791,7 +11796,7 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
   height: 100%;
   opacity: 0;
   background: rgba(34, 34, 34, 0.8);
-  transition: all .35s;
+  transition: all 1s;
 }
 
 .t108-one-page #portfolio .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
@@ -11827,6 +11832,11 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
   border-radius: 100%;
   line-height: 72px;
   border: 2px solid #a5e200;
+  transition: 0.5s;
+}
+
+.t108-one-page #counters-services .icon-services:hover {
+  transform: rotate(-45deg);
 }
 
 .t108-one-page #counters-services .counters-box {
@@ -11838,9 +11848,10 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 }
 
 .t108-one-page #counters-services .counters-box .divider-light-dark {
-  width: 48px;
+  width: 25px;
   margin-left: 0;
   margin-bottom: 20px;
+  opacity: 0.5;
 }
 
 @media (max-width: 768px) {
@@ -12042,8 +12053,8 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 }
 
 #error-404 form .submit input[type="submit"]:hover {
-  background-color: #a5e200;
-  border-color: #a5e200;
+  background-color: #88ba00;
+  border-color: #88ba00;
 }
 
 @media (min-width: 768px) {
@@ -12077,8 +12088,8 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
     background-color: #a5e200;
   }
   #error-404 form .submit input[type="submit"]:hover {
-    background-color: #a5e200;
-    border-color: #a5e200;
+    background-color: #88ba00;
+    border-color: #88ba00;
   }
 }
 
@@ -12494,6 +12505,11 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
   #icon-variants {
     margin-top: 100px;
   }
+}
+
+.rotation-link a:hover {
+  transform: rotate(-45deg);
+  transition: transform 0.5s;
 }
 
 /***/
