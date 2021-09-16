@@ -1,0 +1,6 @@
+.team {
+    padding-top: 200px;
+    @media all and(max-width: $large) {
+        padding-top: 30px;
+    }
+}
