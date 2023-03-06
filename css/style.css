@@ -21,7 +21,7 @@ hr {
     padding: 14px 20px;
     transition: all .6s;
     display: inline-block;
-    margin: auto;
+    margin: 10px auto;
     background-color: transparent;
     cursor: pointer;
     border-radius: 5px;
@@ -47,7 +47,7 @@ section {
 
 .section-header h2 {
     color: #333;
-    font-size: 1.9em;
+    font-size: 2em;
     text-align: center;
     text-transform: uppercase;
     font-weight: 400;
@@ -79,7 +79,7 @@ section {
 
 .main-header .main-header-content p {
     color: #333;
-    font-size: 1.3em;
+    font-size: 1.5em;
     margin: 40px 0;
 }
 
@@ -155,10 +155,10 @@ label[for="drop-nav"] {
 }
 
 .portfolio-wrapper .portfolio-item {
-    flex-basis: 30%;
+    flex-basis: 32%;
     height: 300px;
     position: relative;
-    margin: 5px 5px;
+    margin: 0.5%;
 }
 
 .portfolio-wrapper .portfolio-item img {
@@ -188,7 +188,7 @@ label[for="drop-nav"] {
 
 .portfolio-wrapper .portfolio-item h3:hover {
     opacity: 1;
-    box-shadow: 0 0 10px 5px #007bff;
+    box-shadow: 0 0 20px 1px #007bff;
 }
 
 /* Contact section styles */
@@ -251,7 +251,7 @@ label[for="drop-nav"] {
         max-width: 768px;
     }
     .portfolio-wrapper .portfolio-item {
-        flex-basis: 50%;
+        flex-basis: 49%;
     }
 }
 
@@ -266,7 +266,12 @@ label[for="drop-nav"] {
 
 @media (max-width: 480px) {
     .main-header .main-header-content h1 {
-        font-size: 3em;
+        font-size: 1.5em;
+    }
+
+    .main-header .main-header-content p span {
+        font-size: 0.5em;
+        display: block;
     }
     .about .about-img {
         max-height: 200px;

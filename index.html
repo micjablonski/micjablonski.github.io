@@ -37,7 +37,7 @@
         <div class="main-header-content">
             <h1>Front-end Developer</h1>
             <hr>
-            <p>HTML<span> &#8902 </span>CSS<span> &#8902 </span>JavaScript</p>
+            <p>HTML<span>&#8902</span>CSS<span>&#8902</span>JavaScript<span>&#8902</span>Bootstrap<span>&#8902</span>SASS<span>&#8902</span>AJAX<span>&#8902</span>jQuery<span></p>
         </div>
     </header>
     <section id="about" class="about">
@@ -49,7 +49,8 @@
             <img src="img/about.jpg" alt="Michal Jablonski" class="about-img">
             <p>Hi. I'm Michael, a young Front-end Developer with 6 months non-commmercial experience currently looking for a job. Below I present my CV in pdf format and some of my projects that I've completed as part of the course so far.</p>
             <p>My first project was created using HyperText Markup Language (HTML) and Cascading Style Sheets (CSS). HTML is the standard markup language for Web pages and CSS is the language we use to style an HTML document.</p>
-            <p>In the second project JavaScript (JS), Syntactically Awesome Style Sheets (SASS) and Asynchronous JavaScript and XML (AJAX) were also used. JS is most well-known as the scripting languagefor Web pages, created by Netscape. On the other hand SASS is a CSS pre-processor and reduces repetition of CSS and therefore saves time. AJAX is update a web page without reloading the page     </p>
+            <p>In the second project JavaScript (JS), Syntactically Awesome Style Sheets (SASS) and Asynchronous JavaScript and XML (AJAX) were also used. JS is most well-known as the scripting languagefor Web pages, created by Netscape. On the other hand SASS is a CSS pre-processor and reduces repetition of CSS and therefore saves time. AJAX is update a web page without reloading the page.</p>
+            <p>The third project was created using Bootstramp. Bootstrap is the most popular HTML, CSS, and JavaScript framework for developing responsive websites (mobile-first).</p>
             <a href="" class="btn">Download CV</a>
         </div>
     </section>
@@ -64,51 +65,15 @@
             <div class="portfolio-wrapper">
                 <a href="projects/1/index.html" class="portfolio-item" target="_blank" >
                     <img src="img/portfolio/photo-1.jpg" alt="portfolio item 1">
-                    <h3>HTML+CSS</h3>
+                    <h3>Project 1</h3>
                 </a>
                 <a href="projects/2/index.html" class="portfolio-item" target="_blank">
                     <img src="img/portfolio/photo-2.jpg" alt="portfolio item 2">
-                    <h3>JS+SASS+AJAX</h3>
+                    <h3>Project 2</h3>
                 </a>
-                <a href="" class="portfolio-item">
+                <a href="projects/3/index.html" class="portfolio-item" target="_blank">
                     <img src="img/portfolio/photo-3.jpg" alt="portfolio item 3">
-                    <h3>Project</h3>
-                </a>
-                <a href="" class="portfolio-item">
-                    <img src="img/portfolio/photo-4.jpg" alt="portfolio item 4">
-                    <h3>Project</h3>
-                </a>
-                <a href="" class="portfolio-item">
-                    <img src="img/portfolio/photo-5.jpg" alt="portfolio item 5">
-                    <h3>Project</h3>
-                </a>
-                <a href="" class="portfolio-item">
-                    <img src="img/portfolio/photo-6.jpg" alt="portfolio item 6">
-                    <h3>Project</h3>
-                </a>
-                <a href="" class="portfolio-item">
-                    <img src="img/portfolio/photo-7.jpg" alt="portfolio item 7">
-                    <h3>Project</h3>
-                </a>
-                <a href="" class="portfolio-item">
-                    <img src="img/portfolio/photo-8.jpg" alt="portfolio item 8">
-                    <h3>Project</h3>
-                </a>
-                <a href="" class="portfolio-item">
-                    <img src="img/portfolio/photo-9.jpg" alt="portfolio item 9">
-                    <h3>Project</h3>
-                </a>
-                <a href="" class="portfolio-item">
-                    <img src="img/portfolio/photo-10.jpg" alt="portfolio item 10">
-                    <h3>Project</h3>
-                </a>
-                <a href="" class="portfolio-item">
-                    <img src="img/portfolio/photo-11.jpg" alt="portfolio item 11">
-                    <h3>Project</h3>
-                </a>
-                <a href="" class="portfolio-item">
-                    <img src="img/portfolio/photo-12.jpg" alt="portfolio item 12">
-                    <h3>Project</h3>
+                    <h3>Project 3</h3>
                 </a>
             </div>
         </div>
@@ -120,27 +85,27 @@
                 <h2>Kontakt</h2>
                 <hr>
             </header>
-            <form action="">
-                <input type="text" placeholder="Imię" name="name">
-                <input type="email" placeholder="E-mail" name="email">
-                <textarea placeholder="Wiadomość" name="message"></textarea>
-                <input type="submit" class="btn">
+            <form action="https://formspree.io/f/xzbyjjgd" method="post">
+                <input type="text" placeholder="Name" id="contact-name" name="name" required>
+                <input type="email" placeholder="E-mail" id="contact-email" name="email" required>
+                <textarea placeholder="Message" name="message" id="contact-textArea" required></textarea>
+                <div class="contact-message"></div>
+                <button type="submit" class="btn" id="contact-btn">Submit</button>
             </form>
             <div class="social-links">
-                <a href="" class="social-link"><i class="fab fa-facebook-square"></i></a>
-                <a href="" class="social-link"><i class="fab fa-twitter"></i></a>
-                <a href="" class="social-link"><i class="fab fa-instagram"></i></a>
-                <a href="" class="social-link"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.facebook.com/" target="_blank" class="social-link"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://twitter.com/" target="_blank" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/" target="_blank" class="social-link"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/" target="_blank" class="social-link"><i class="fab fa-youtube"></i></a>
             </div>
         </div>
     </section>
 
     <footer class="main-footer">
         <div class="container">
-            <p>Copyright &copy Akademia 108 - Szkoła Programowania</p>
+            <p>Copyright &copy Michal Jablonski | e-mail: jablonski.mn@gmail.com | phone: +48793030346 | Poland</p>
         </div>
     </footer>
-    
 </body>
 
 </html>

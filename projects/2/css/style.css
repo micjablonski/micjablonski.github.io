@@ -386,7 +386,9 @@ section .section-header p {
   text-decoration: none;
 }
 .main-nav .open-menu-holder .menu .menu-item a:hover {
-  font-size: 20px;
+  background-color: #473452;
+  border-radius: 10px;
+  padding: 5px;
 }
 @media all and (min-width: 992px) {
   .main-nav .main-nav-holder {
