@@ -144,6 +144,11 @@ label[for="drop-nav"] {
     text-align: justify;    
 }
 
+.about .mz {
+    text-decoration: none;
+    color: #777;
+}
+
 /* Portfolio section styles */
 .portfolio {
     background-color: #f2f1ed;    
