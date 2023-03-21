@@ -1,5 +1,4 @@
-body
-{
+body {
 	box-sizing: border-box;
 	background-color: black;
 	color: #999999;
@@ -7,8 +6,7 @@ body
 	font-weight: 600;
 }
 
-.container
-{
+.container {
 	background-color: #282c34;
 	width: 60%;
 	margin: 20px auto 0 auto;
@@ -17,16 +15,14 @@ body
 	border-radius: 30px;
 }
 
-.container .password-hint
-{
+.container .password-hint {
 	text-align: center;
 	width: 100%;
 	margin-top: 20px;
 	font-size: 1em;
 }
 
-.container .password-title
-{
+.container .password-title {
 	text-align: center;
 	width: 100%;
 	margin: 20px 0;
@@ -39,14 +35,12 @@ body
 	text-align: center;
 }
 
-.container .image-gallows img
-{
+.container .image-gallows img {
 	border-radius: 10px;
 	width: 60%;
 }
 
-.container .alphabet
-{
+.container .alphabet {
 	font-size: 1.5em;
 	width: 90%;
 	margin: 20px auto;
@@ -55,8 +49,7 @@ body
 	justify-content: space-around;
 }
 
-.container .alphabet .letter
-{
+.container .alphabet .letter {
 		width: 35px;
 		height: 35px;
 		text-align: center;
@@ -68,8 +61,7 @@ body
 		border-radius: 10px;
 }
 
-.container .alphabet .letter:hover
-{
+.container .alphabet .letter:hover {
 	background-color: #383838;
 	color: white;
 	border: 3px solid white;
@@ -87,11 +79,26 @@ body
 	border-radius: 10px;
 }
 
-.again:hover
-{
+.again:hover {
 	color: greenyellow;
 	background-color: #464b50;
 	padding: 10px;
 	border-radius: 10px;
+}
 
+@media (max-width: 768px) {
+	.container {
+		width: 90%;
+	}
+	.container .image-gallows img {
+		width: 80%;
+	}
+	.container .alphabet {
+		font-size: 1em;
+	}
+	.container .alphabet .letter {
+		width: 15px;
+		height: 15px;
+		padding-bottom: 10px;
+	}
 }
