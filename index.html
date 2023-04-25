@@ -1,123 +1,99 @@
 <!DOCTYPE html>
-<html lang="pl">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Portfolio-MJ</title>
-    
-    <!-- Favico.ico -->
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-
-    <!-- Normalize CSS -->
-    <link rel="stylesheet" href="css/normalize.css">
-
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
-    
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
-
-    <!-- Custom CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <!-- Style CSS -->
     <link rel="stylesheet" href="css/style.css">
+    
+    <title>Portfolio</title>
 </head>
-
 <body>
-    <nav class="main-menu">
-        <label for="drop-nav">Menu</label>
-        <input type="checkbox" id="drop-nav">
-        <ul>
-            <li class="menu-item"><a href="#about">About</a></li>
-            <li class="menu-item"><a href="#portfolio">Portfolio</a></li>
-            <li class="menu-item"><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-    <header class="main-header">
-        <div class="main-header-content">
-            <h1>Front-end Developer</h1>
-            <hr>
-            <p>HTML<span>&#8902</span>CSS<span>&#8902</span>JavaScript<span>&#8902</span>Bootstrap<span>&#8902</span>SASS<span>&#8902</span>AJAX<span>&#8902</span>jQuery<span></p>
+    <div class="wrapper">
+        <main>
+        <div class="main-description">
+            <h2 class="job-title">Front-End Developer</h2>
+            <h1>Michal Jablonski</h1>
+            <p class="main-description-text">Hi. I'm Michael, a young Front-end Developer with several months non-commmercial experience, who isn't afraid of challenges. Below I present link to my projects.</p>
         </div>
-    </header>
-    <section id="about" class="about">
-        <div class="container">
-            <header class="section-header">
-                <h2>About</h2>
-                <hr>
-            </header>
-            <img src="img/about.jpg" alt="Michal Jablonski" class="about-img">
-            <p>Hi. I'm Michael, a young Front-end Developer with 6 months non-commmercial experience. Below I present my CV in pdf format and some of my projects that I've completed as part of the course so far and more.</p>
-            <p>My first project was created using HyperText Markup Language (HTML) and Cascading Style Sheets (CSS). HTML is the standard markup language for Web pages and CSS is the language we use to style an HTML document.</p>
-            <p>In the second project JavaScript (JS), Syntactically Awesome Style Sheets (SASS) and Asynchronous JavaScript and XML (AJAX) were also used. JS is most well-known as the scripting languagefor Web pages, created by Netscape. On the other hand SASS is a CSS pre-processor and reduces repetition of CSS and therefore saves time. AJAX is update a web page without reloading the page.</p>
-            <p>The third project was created using Bootstramp. Bootstrap is the most popular HTML, CSS, and JavaScript framework for developing responsive websites (mobile-first).</p>
-            <p>The fourth and fifth project concerned the game and was implemented using JS and jQuery library. The inspiration was <a href="https://miroslawzelent.pl/" class="mz" target="_blank">Mirosław Zelent</a></p>
-            <a href="cv/CV_Michal_Jablonski.pdf" class="btn" target="_blank" alt="CV Michal Jablonski">Curriculum Vitae (CV)</a>
+        <div class="projects">
+            <h2 class="header-primary">Projects</h2>
+            <ol class="list-primary">
+                <li><a class="list-primary-item" href="projects/first-website/index.html" target="_blank">First website</a><span class="list-primary-item">....................................</span>[<span class="list-primary-item">HTML5, CSS3</span>]</li>
+                <li><a class="list-primary-item" href="projects/spa-beauty-center/index.html" target="_blank">SPA & BEAUTY CENTER</a><span class="list-primary-item">....................</span>[<span class="list-primary-item">HTML5, CSS3, SASS, AJAX, JavaScript</span>]</li>
+                <li><a class="list-primary-item" href="projects/fully-responsive-design/index.html" target="_blank">Fully Responsive Design</a><span class="list-primary-item">...................</span>[<span class="list-primary-item">HTML5, CSS3, Bootstrap</span>]</li>
+                <li><a class="list-primary-item" href="projects/gallows-game/index.html" target="_blank">Gallows game</a><span class="list-primary-item">..................................</span>[<span class="list-primary-item">JavaScript, jQuery</span>]</li>
+                <li><a class="list-primary-item" href="projects/memmory-game/index.html" target="_blank">Memmory game</a><span class="list-primary-item">...............................</span>[<span class="list-primary-item">JavaScript, jQuery</span>]</li>
+            </ol>
         </div>
-    </section>
+        <div>
+            <h2 class="header-primary">Work Experience</h2>
+            <h3 class="job-name">Front-End Developer (Freelance)</h3>
+            <p class="job-date">September 2022 - up to now<span class="date-line"> | </span>Poland</p>
+            <ul class="job-list">
+                <li>Creating webpages using HTML5, CSS, SASS and Bootstramp.</li>
+                <li>Creating various projects using JavaScript and jQuery.</li>
+            </ul>
+        </div>
+        <div>
+            <h2 class="header-primary">Education</h2>
+            <h3  class="job-name">AGH University of Science and Technology in Krakow, Faculty of Non-Ferrous Metals</h3>
+            <h4 class="job-management">Metallurgy</h4>
+            <p class="job-date">October 2007 - June 2012<span class="date-line"> | </span>Poland</p>
+        </div>
+        <div>
+            <h2 class="header-primary">Training/Courses</h2>
+            <ul class="job-list">
+                <li>„Front End Developer Course” organized by Akademia 108. Thematic range: HTML5, CSS3, JavaScript, ReactJS, jQuery, RWD, Bootstramp, AJAX, SASS, GIT, WordPress (225 hours)</li>
+                <li>PRINCE2® Fundation Certificate in Project Management</li>
+            </ul>
 
-    <section id="portfolio" class="portfolio">
-        <div class="container">
-            <header class="section-header">
-                <h2>Portfolio</h2>
-                <hr>
-            </header>
-            
-            <div class="portfolio-wrapper">
-                <a href="projects/1/index.html" class="portfolio-item" target="_blank" >
-                    <img src="img/portfolio/photo-1.jpg" alt="portfolio item 1">
-                    <h3>Project 1</h3>
-                </a>
-                <a href="projects/2/index.html" class="portfolio-item" target="_blank">
-                    <img src="img/portfolio/photo-2.jpg" alt="portfolio item 2">
-                    <h3>Project 2</h3>
-                </a>
-                <a href="projects/3/index.html" class="portfolio-item" target="_blank">
-                    <img src="img/portfolio/photo-3.jpg" alt="portfolio item 3">
-                    <h3>Project 3</h3>
-                </a>
-                <a href="projects/4/index.html" class="portfolio-item" target="_blank">
-                    <img src="img/portfolio/photo-4.jpg" alt="portfolio item 4">
-                    <h3>Project 4</h3>
-                </a>
-                <a href="projects/5/index.html" class="portfolio-item" target="_blank">
-                    <img src="img/portfolio/photo-5.jpg" alt="portfolio item 5">
-                    <h3>Project 5</h3>
-                </a>
+
+
+        </div>
+        </main>
+        <aside>
+            <div class="div-photo">
+                <img class="cv-photo"  src="img/jablonski.jpg" width="200" alt="Michal Jablonski">
             </div>
-        </div>
-    </section>
-
-    <section id="contact" class="contact">
-        <div class="container">
-            <header class="section-header">
-                <h2>Contact</h2>
-                <hr>
-            </header>
-            <form action="https://formspree.io/f/xzbyjjgd" method="post">
-                <input type="text" placeholder="Name" id="contact-name" name="name" required>
-                <input type="email" placeholder="E-mail" id="contact-email" name="email" required>
-                <textarea placeholder="Message" name="message" id="contact-textArea" required></textarea>
-                <div class="contact-message"></div>
-                <button type="submit" class="btn" id="contact-btn">Submit</button>
-            </form>
-            <div class="social-links">
-                <a href="https://www.facebook.com/" target="_blank" class="social-link"><i class="fab fa-facebook-square"></i></a>
-                <a href="https://twitter.com/" target="_blank" class="social-link"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.instagram.com/" target="_blank" class="social-link"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.youtube.com/" target="_blank" class="social-link"><i class="fab fa-youtube"></i></a>
+            <div class="contact-block">
+                <h2 class="header-secondary">Contacts</h2>
+                <p class="contact-links"> <span class="bold">C:</span> <a class="contact-links" href="tel:+48 793030346">+48793030346</a> <br> 
+                    <span class="bold">E:</span> <a class="contact-links" href="mailto:jablonski.mn@gmail.com">jablonski.mn@gmail.com</a>  
+                </p>
             </div>
-        </div>
-    </section>
-
-    <footer class="main-footer">
-        <div class="container">
-            <p>Copyright &copy Michal Jablonski | <a href="mailto:jablonski.mn@gmail.com">e-mail: jablonski.mn@gmail.com</a> | phone: +48793030346 | Poland</p>
-        </div>
-    </footer>
+            <div class="tech-skills-block">
+                <h2 class="header-secondary">Tech Skills</h2>
+                <ul class="list-secondary">
+                    <li><span class="list-secondary-item">HTML5</span></li>
+                    <li><span class="list-secondary-item">CSS3</span></li>
+                    <li><span class="list-secondary-item">SASS</span></li>
+                    <li><span class="list-secondary-item">JavaScript</span></li>
+                    <li><span class="list-secondary-item">jQuery</span></li>
+                    <li><span class="list-secondary-item">GIT</span></li>
+                    <li><span class="list-secondary-item">React.js</span></li>
+                    <li><span class="list-secondary-item">Node.js</span></li>
+                </ul>
+            </div>
+            <div class="soft-skills-block">
+                <h2 class="header-secondary">Soft Skills</h2>
+                <ul class="list-secondary">
+                    <li><span class="list-secondary-item">Team management</span></li>
+                    <li><span class="list-secondary-item">Teamwork</span></li> 
+                    <li><span class="list-secondary-item">Project Management</span></li>
+                    <li><span class="list-secondary-item">Research</span></li>
+                </ul>
+            </div>
+        </aside>
+        
+    </div>
 </body>
-
 </html>

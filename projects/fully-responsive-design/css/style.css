@@ -1,0 +1,42 @@
+section,
+footer {
+    padding: 60px 0;
+}
+
+.showcase-img {
+    background-size: cover;
+    background-position: center;
+}
+
+.showcase-text {
+    padding: 100px;
+    text-align: justify;
+}
+
+.showcase {
+    padding: 0;
+}
+
+.team-item {
+    max-width: 200px;
+}
+
+.call-to-action {
+    background-image: url(../img/slider-7.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width: 768px) {
+    .service-item,
+    .team-item {
+        margin-bottom: 50px;
+    }
+    .team-item-last,
+    .service-item:last-child {
+        margin: 0;
+    }
+    .showcase-img {
+        height: 300px;
+    }
+}
